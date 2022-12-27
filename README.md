@@ -7,4 +7,8 @@ the maximum amount of money or credit that a financial institution can lend to a
 ## Scope:
 The project aims to solve the regression problem by applying machine learning models to predict credit card limit.
 Below is the breif overview of the project workflow:
-### 1). 
+### 1). Loading the essential libraries and importing and reading the dataset.
+### 2). Cleaning the dataset to remove irrelevant and missing information using data cleaning and manipulation techniques.
+### 3). Visualizing the dataset using graphs, charts and figures to gain better understaning of the data.
+### 4). Detecting and removing oultiers using outliers removal technique.
+### 5). Feature selection using statistical test.
