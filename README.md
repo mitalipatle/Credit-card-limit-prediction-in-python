@@ -7,4 +7,4 @@ the maximum amount of money or credit that a financial institution can lend to a
 ## Scope:
 The project aims to solve the regression problem by applying machine learning models to predict credit card limit.
 Below is the breif overview of the project workflow:
-###1). 
+### 1). 
