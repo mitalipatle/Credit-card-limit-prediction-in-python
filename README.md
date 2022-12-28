@@ -7,8 +7,12 @@ the maximum amount of money or credit that a financial institution can lend to a
 ## Scope:
 The project aims to solve the regression problem by applying machine learning models to predict credit card limit.
 Below is the breif overview of the project workflow:
-### 1). Loading the essential libraries and importing and reading the dataset.
-### 2). Cleaning the dataset to remove irrelevant and missing information using data cleaning and manipulation techniques.
-### 3). Visualizing the dataset using graphs, charts and figures to gain better understaning of the data.
-### 4). Detecting and removing oultiers using outliers removal technique.
-### 5). Feature selection using statistical test.
+##### 1). Loading the essential libraries and importing and reading the dataset.
+##### 2). Cleaning the dataset to remove irrelevant and missing information using data cleaning and manipulation techniques.
+##### 3). Visualizing the dataset using graphs, charts and figures to gain better understaning of the data.
+##### 4). Detecting and removing oultiers using outliers removal technique.
+##### 5). Feature selection using backward elimination approach and performing transformation on response variable(credit limit).
+##### 6). Applying multiple machine learning algorithms to train the models and evaluate their performance using different metrics and visualisation.
+
+## Data Description:
+The data file Credit_Card_Dataset.csv is a data set of credit card customers from a large bank. The data dictionary is given below.
