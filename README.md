@@ -16,7 +16,7 @@ Below is the breif overview of the project workflow:
 
 ## Data Description:
 The data file Credit_Card_Dataset.csv is a data set of credit card customers from a large bank. The data dictionary is given below.
-| Variables | Description |
+| Variable | Description |
 | --- | --- |
 | `git status` | List all *new or modified* files |
 | `git diff` | Show file differences that **haven't been** staged |
