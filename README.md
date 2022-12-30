@@ -18,5 +18,16 @@ Below is the breif overview of the project workflow:
 The data file Credit_Card_Dataset.csv is a data set of credit card customers from a large bank. The data dictionary is given below.
 | Variable | Description |
 | --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| `CLIENTNUM` | Client ID (not for analysing!) |
+| `Customer_Age` | Age of customer in years |
+| `Gender` | Gender of customer (**male or female**) |
+| `Dependent_count` | Number of dependents (**children**) of the customer |
+| `Education_Level` | Education level attained by the customer(**primary, secondary or third level**)|
+| `Marital_Status` | **divorced, married/living with partner or single**  |
+| `Income_Category` | Yearly income in Euro (to nearest 1k, grouped **<30k, 31-50k,51-70k,71-110k or 111k+**)|
+| `Card_Category` | Type of credit card (**Blue or Gold**) |
+| `Months_on_book` | Number of months as credit card customer |
+| `Credit_Limit` | Credit card limit |
+| `Avg_Utilization_Ratio` | A measure of how often the credit card is used |
+| `Pay_on_time` | Whether or not the monthly balance on the credit card paid off( **yes or no**) |
+
