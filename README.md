@@ -19,6 +19,7 @@ The data file Credit_Card_Dataset.csv is a data set of credit card customers fro
 | Variable | Description |
 | --- | --- |
 | `CLIENTNUM` | Client ID (not for analysing!) |
+| `Attrition_Flag` | Whether or not the customer has left the bank in the last 12 months(**yes or no**) |
 | `Customer_Age` | Age of customer in years |
 | `Gender` | Gender of customer (**male or female**) |
 | `Dependent_count` | Number of dependents (**children**) of the customer |
@@ -30,4 +31,5 @@ The data file Credit_Card_Dataset.csv is a data set of credit card customers fro
 | `Credit_Limit` | Credit card limit |
 | `Avg_Utilization_Ratio` | A measure of how often the credit card is used |
 | `Pay_on_time` | Whether or not the monthly balance on the credit card paid off( **yes or no**) |
+|`Random_numbers`| Random Numbers |
 
