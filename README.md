@@ -34,7 +34,13 @@ The data file Credit_Card_Dataset.csv is a data set of credit card customers fro
 |`Random_numbers`| Random Numbers |
 
 ## Importing Libraries and Data Cleaning:
-Importing some essential libraries, such as data manipulation libraries that offer a wide range of capabilities to help with a range of actions on data, such as organizing or performing mathematical operations, data visualization libraries assist in gaining important insight into the data through various graphical representations by revealing hidden patterns and trends and data modelling librabries which helps in building differnt statistical or machine learning models.
+Importing some essential libraries, such as data manipulation libraries that offer a wide variety of capabilities to help with a range of actions on data, such as organizing or performing mathematical operations.Similarly, data visualization libraries assist in gaining important insight into the data through various graphical representations by revealing hidden patterns and trends and data modelling librabries which helps in building different statistical or machine learning models.
 
 ![alt text](https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Libraries.png)
+
+Importing the dataset to the notebook using the github link:
+
+
+
+
 
