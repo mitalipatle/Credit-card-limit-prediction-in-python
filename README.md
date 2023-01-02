@@ -49,4 +49,16 @@ Cleaning the dataset:
 
 <img src ="">
 
-2). 217 rows found to have missing values and thus needs to be removed using `dropna()` function 
+2). 217 rows found to have missing values and thus needs to be removed using `dropna()` function.
+
+<img src ="">
+<img src ="">
+
+3). Columns like CLIENTNUM that is unique for each customer , Random_numbers, Attrition_Flag does not add any value to credit limit analysis and thus these irrelevant columns can be dropped. 
+
+<img src ="">
+
+4).One duplicate value was found and dropped from the dataframe and datatypes of the features were found correct which later will need label encoding due to the presence of objects during the model fitting. 
+
+<img src ="">
+
