@@ -43,7 +43,7 @@ Importing the dataset to the notebook using the github link:
 <img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Importing%20dataset.png" >
 
 
-Cleaning the dataset:
+#######Cleaning the dataset:
 
 1). Upon exploring the dataset, it was found that the null values present in the dataset has string datatype and thus need to be converted to null values.
 
