@@ -51,7 +51,7 @@ Cleaning the dataset:
 
 2). 217 rows found to have missing values and thus needs to be removed using `dropna()` function.
 
-<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/converting%20str%20to%20null.png">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/missing%20value%20rows.png" height=200>
 
 <img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/dropping%20missing%20value.png">
 
