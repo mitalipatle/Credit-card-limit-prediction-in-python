@@ -47,18 +47,21 @@ Cleaning the dataset:
 
 1). Upon exploring the dataset, it was found that the null values present in the dataset has string datatype and thus need to be converted to null values.
 
-<img src ="">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/converting%20str%20to%20null.png">
 
 2). 217 rows found to have missing values and thus needs to be removed using `dropna()` function.
 
-<img src ="">
-<img src ="">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/converting%20str%20to%20null.png">
+
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/dropping%20missing%20value.png">
 
 3). Columns like CLIENTNUM that is unique for each customer , Random_numbers, Attrition_Flag does not add any value to credit limit analysis and thus these irrelevant columns can be dropped. 
 
-<img src ="">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/dropping%20missing%20value.png">
 
 4).One duplicate value was found and dropped from the dataframe and datatypes of the features were found correct which later will need label encoding due to the presence of objects during the model fitting. 
 
-<img src ="">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/duplicates.png">
+
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/no.%20of%20duplicates.png">
 
