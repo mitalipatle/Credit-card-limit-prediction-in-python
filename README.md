@@ -55,9 +55,9 @@ Importing the dataset to the notebook using the github link:
 
 <img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/dropping%20missing%20value.png">
 
-3). Columns like CLIENTNUM that is unique for each customer , Random_numbers, Attrition_Flag does not add any value to credit limit analysis and thus these irrelevant columns can be dropped. 
+3). Columns like CLIENTNUM that is unique for each customer , Random_numbers and Attrition_Flag does not add any value to credit limit analysis and thus these irrelevant columns can be dropped. 
 
-<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/dropping%20missing%20value.png">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/dropping%20irrelevant%20columns.png">
 
 4).One duplicate value was found and dropped from the dataframe and datatypes of the features were found correct which later will need label encoding due to the presence of objects during the model fitting. 
 
@@ -65,3 +65,13 @@ Importing the dataset to the notebook using the github link:
 
 <img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/no.%20of%20duplicates.png">
 
+<img src = "https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/data%20type%20check.png">
+
+## Exploratory Data Analysis:
+
+#### Univariate Analysis:
+
+1). From the bar chart of the categorical variables it can be seen that almost all the variables
+are found to be deeply imabalanced such as Marital Status, Card Category and payment on time, excpet for the Gender variable as there is slight differnece between the number of male and female customers.
+
+<img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Bar_univariate.png">
