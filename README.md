@@ -130,3 +130,22 @@ e). **Pay on time and Credit Limit**:
 There is no significant difference between the median credit limit for customers who pay on time and who do not pay on time.
 
 <img src= "https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Pay_on%20time%20vs%20CC.png">
+
+
+## Feature Engineering:
+
+1). The histogram of the credit limit in the univariate analysis showed the presence of outliers on either sides of the distribution, thus these outliers needs to be removed. The technique used in this project is called trimming. After trimming 1% of the total data from both the sides, a decrease in the skewness can also be seen.
+
+<img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/removing%20outliers.png">
+
+2).Before fitting the model the categorical variables needs label encoding. 
+
+<img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/label%20encoding%20code.png">
+
+
+Finally, the dataframe below with 5999 observations shows the trimmed and label endoded data which is ready to be used for model building.
+
+<img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/trimming%20and%20label%20encoding%20dataset.png">
+
+
+
