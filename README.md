@@ -97,7 +97,7 @@ However,there can be seen a spike on the very right of the distribution as well.
 
 Moreover, a negative moderate correlation exists between Avg_utilization ratio and Credit Limit of "-0.48" which shows that with the increase in avg_utilization ratio (measure of how often the credit card is used) the Credit Limit for that customer decreases moderatly and vice versa.(Inclusion of avg_utilization ratio variable will dpend on it's significance added to the model)
 
-<img src= "">
+<img src= "https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/heat%20map.png">
 
 2). Categorical variable against Credit Limit(Response variable).
 
@@ -105,28 +105,28 @@ Moreover, a negative moderate correlation exists between Avg_utilization ratio a
  
 The boxplot shows that the males customers have much higher median credi limit(8791.0) when compared to female customer's median credit limit(2819.0).
 
-<img src= "">
+<img src= "https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Gender%20vs%20CC.png">
 
 (b). **Marital Status and Credit Limit**:
 
 The median credit limit difference between customers of different marital status is not huge with the median value of single(4511.0),married(4138.5) and divorced(4701.0), inspite of  imbalanced number of customers belonging to different marital status.
 
-<img src= "">
+<img src= "https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Marital%20status%20vs%20CC.png">
 
 (c). **Income Category and Credit Limit**:
 
 The box plot for the income category against credit limit displays a directly proportional relationship between the variables because with the increase in Income, Credit Limit increases as well.
 
-<img src= "">
+<img src= "https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Income%20cat%20vs%20CC.png">
 
 d). **Card Category and Credit Limit**:
 
 The median credit limit for the customers who holds a gold card category is much higher(27977.5) despite being very less in number. On the other hand, median credit limit of the blue card holders are much less (3978.5).
 
-<img src= "">
+<img src= "https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/card_Cat%20vs%20CC.png">
 
-e). **Pay on time and Credit Limit:
+e). **Pay on time and Credit Limit**:
 
 There is no significant difference between the median credit limit for customers who pay on time and who do not pay on time.
 
-<img src= "">
+<img src= "https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Pay_on%20time%20vs%20CC.png">
