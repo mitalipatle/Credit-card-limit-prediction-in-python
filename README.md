@@ -99,4 +99,24 @@ Moreover, a negative moderate correlation exists between Avg_utilization ratio a
 
 <img src= "">
 
+2). Categorical variable against Credit Limit(Response variable).
+
+(a). **Gender and Credit Limit**:
+ 
+The boxplot shows that the males customers have much higher median credi limit(8791.0) when compared to female customer's median credit limit(2819.0).
+
+<img src= "">
+
+(b). **Marital Status and Credit Limit**:
+
+The median credit limit difference between customers of different marital status is not huge with the median value of single(4511.0),married(4138.5) and divorced(4701.0), inspite of  imbalanced number of customers belonging to different marital status.
+
+<img src= "">
+
+(c). **Income Category and Credit Limit**:
+The box plot for the income category against credit limit displays a directly proportional relationship between the variables because with the increase in Income, Credit Limit increases as well.
+
+<img src= "">
+
+d). **Card Category and Credit Limit**
 
