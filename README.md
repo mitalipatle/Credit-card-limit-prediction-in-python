@@ -72,6 +72,21 @@ Importing the dataset to the notebook using the github link:
 #### Univariate Analysis:
 
 1). From the bar chart of the categorical variables it can be seen that almost all the variables
-are found to be deeply imabalanced such as Marital Status, Card Category and payment on time, excpet for the Gender variable as there is slight differnece between the number of male and female customers.
+are found to be deeply imabalanced such as Marital Status, Card Category and payment on time, excpet for the Gender variable as there is slight difference between the number of male and female customers.
 
 <img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Bar_univariate.png">
+
+2). The Pie chart shows the percentage of customers lying in different income categories where 39% customers earn less than 30k and only 8% customers earn more than 111k+ and the histogram displays the distribution of customer's age according to which the average age of a customer is found to be 46 years approximately.
+
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/pie%20chart%20income.png">
+
+
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/customer%20age%20histogram.png">
+
+3). The histogram below shows the distribution of credit limit(response/dependent variable) that is positively skewed indicating higher number of customers have lower income and tells the direction of outiers towards the left.
+
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/credit%20limit%20histogram.png">
+
+However,there can be seen a spike on the very right of the distribution as well.On further investigation about customers earning more than 30,000 income it was found that hike is mostly for customers with higher income category, males, a significantly large number of gold card holder out of total gold card holders.
+
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/hike%20on%20right.png">
