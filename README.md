@@ -114,9 +114,19 @@ The median credit limit difference between customers of different marital status
 <img src= "">
 
 (c). **Income Category and Credit Limit**:
+
 The box plot for the income category against credit limit displays a directly proportional relationship between the variables because with the increase in Income, Credit Limit increases as well.
 
 <img src= "">
 
-d). **Card Category and Credit Limit**
+d). **Card Category and Credit Limit**:
 
+The median credit limit for the customers who holds a gold card category is much higher(27977.5) despite being very less in number. On the other hand, median credit limit of the blue card holders are much less (3978.5).
+
+<img src= "">
+
+e). **Pay on time and Credit Limit:
+
+There is no significant difference between the median credit limit for customers who pay on time and who do not pay on time.
+
+<img src= "">
