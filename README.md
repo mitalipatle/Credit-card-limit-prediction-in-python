@@ -90,3 +90,13 @@ are found to be deeply imabalanced such as Marital Status, Card Category and pay
 However,there can be seen a spike on the very right of the distribution as well.On further investigation about customers earning more than 30,000 income it was found that hike is mostly for customers with higher income category, males, a significantly large number of gold card holder out of total gold card holders.
 
 <img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/hike%20on%20right.png">
+
+#### Multivariate Analysis:
+
+1).The correlation matrix for numerical variables shows that a postive high correlation exists between Customer Age and Months_on_book(Number of months as credit card customer)with a value of "0.79" ,i.e with the increase in age of customer their number of months as credit card customer increases and vice versa. (Multicollinearity is present between 2 independent variable). Thus only one out of the two variable should be used in the model.
+
+Moreover, a negative moderate correlation exists between Avg_utilization ratio and Credit Limit of "-0.48" which shows that with the increase in avg_utilization ratio (measure of how often the credit card is used) the Credit Limit for that customer decreases moderatly and vice versa.(Inclusion of avg_utilization ratio variable will dpend on it's significance added to the model)
+
+<img src= "">
+
+
