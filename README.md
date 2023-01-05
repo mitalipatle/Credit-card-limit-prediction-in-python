@@ -149,31 +149,36 @@ Finally, the dataframe below with 5999 observations shows the trimmed and label 
 
 ## Modelling and Evaluation:
 
-1). Firstly, separting the independent and dependent variable into training(80%) and testing(20%) data using hold out cross validation split and performing log transformation on dependent variable(credit limit) to make the distribution close to symmetrical or normally distributed.
+1). Firstly, separating the independent and dependent variable into training(80%) and testing(20%) data using hold out cross validation split and performing log transformation on dependent variable(credit limit) to make the distribution close to symmetrical or normally distributed.
 
-<img src ="">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/split%20and%20transform%20code.png">
 
-<img src ="">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/credit%20limit%20transformed.png">
 
 2). On building the model with linear regression approach, the regression results shows an R-sqaured value of 0.661. The results also shows the p values of all the independent variables , where a varaible is considered insignificant with a p value greater than 0.05 and vice versa.
 
-<img src ="">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Linear%20reg%20code.png">
+
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Linear%20reg%20before.png">
 
 Performing backward elimination approach to remove all the insignificant variables an rebuilding the model.The results shows no noticeable change in R-sqaured value.  
 
-<img src ="">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/Linear%20reg%20after.png">
 
 3).Building a user defined function for all the machine learning regression models and using best hyperparamter in each model and plotting scatter plot for actual versus predicted value. 
 
-
+<img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/regression%20model%20function%20code.png">
+<img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/LR.png"><img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/DT.png"><img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/RF.png">
+<img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/KNN.png">
+<img src="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/SVM.png">
 
 ## Results :
 
 Support Vetor machine has out-performed with an R-squared value oof 0.755, MSE value of 0.030 and RMSE value of 0.172 when comapred to all the other models.On the other hand, linear regression model performed the lowest amongst all.
 
-<img src ="">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/R2%20bar%20chart.png">
 
-<img src ="">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/MSE%20bar%20chart.png">
 
-<img src ="">
+<img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/RMSE%20bar%20chart.png">
 
