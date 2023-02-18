@@ -182,3 +182,9 @@ Support Vetor machine has out-performed with an R-squared value oof 0.755, MSE v
 
 <img src ="https://github.com/mitalipatle/Credit-card-limit-prediction/blob/main/Images/RMSE%20bar%20chart.png">
 
+
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></code>
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg"></code>
+<code><img width="10%" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"></code>
+
+
